@@ -11,7 +11,9 @@
 
     <!-- Header -->
     <div class="h-14 shadow w-full flex items-center justify-center">
-        Clone in Tailwind
+        <a href="../index.html" class="w-fit h-full">
+            <img class="py-3 w-fit h-full" src="../images/cit-logo-trans-fit.png" alt="">
+        </a> 
     </div>
 
     <div class="h-40 flex items-center justify-center">
@@ -79,6 +81,7 @@
             textarea.select();
             document.execCommand("copy");
             document.body.removeChild(textarea);
+            alert("HTML code was copied to the clipboard!");
         }
     </script>
 </body>
