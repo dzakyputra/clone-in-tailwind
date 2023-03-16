@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Clone in TailwindCSS</title>
 </head>
-<body>
+<body class="bg-white h-screen w-screen flex flex-col justify-between">
 
-    Hi there you!
+    <!-- Header -->
+    <div class="h-14 shadow w-full flex items-center justify-center">
+        Clone in Tailwind
+    </div>
+
+    <div class="h-40 flex items-center justify-center">
+        Website Components Cloned in TailwindCSS
+    </div>
+
+    <!-- Item Lists -->
+    <div class="flex items-center justify-center mb-auto">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 gap-y-10 max-w-5xl">
+            <a href="./components/duolingo_register-login-card.html" class="item-card">
+                <img class="rounded border-b" src="./images/duolingo-register_login_card.jpg" />
+                <p class="text-lg text-gray-700 font-bold mt-2">Duolingo</p>
+                <p class="text-md text-gray-500 font-semibold">Register / Login Card</p>
+            </a>
+    
+            <a href="" class="item-card">
+                <img class="rounded" src="https://dummyimage.com/500x500/000/fff" />
+                <p class="text-lg text-gray-700 font-bold mt-2">Linktree</p>
+                <p class="text-md text-gray-500 font-semibold">Pricing Card</p>
+            </a>
+    
+            <a href="" class="item-card">
+                <img class="rounded" src="https://dummyimage.com/500x500/000/fff" />
+                <p class="text-lg text-gray-700 font-bold mt-2">Google One</p>
+                <p class="text-md text-gray-500 font-semibold">Storage Quota Card</p>
+            </a>
+    
+            <a href="" class="item-card">
+                <img class="rounded" src="https://dummyimage.com/500x500/000/fff" />
+                <p class="text-lg text-gray-700 font-bold mt-2">Digital Ocean</p>
+                <p class="text-md text-gray-500 font-semibold">Homepage Banner</p>
+            </a>
+
+            
+
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="h-14 shadow border w-full text-xs flex flex-col items-center justify-center text-gray-500 font-semibold">
+        <p> Copyright ©2023 </p>
+        <p> Clone in Tailwind </p>
+    </div>
+
     
 </body>
 </html>
